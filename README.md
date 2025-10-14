@@ -27,12 +27,17 @@ Automatically detects if user input is in English, Hinglish, or Hindi, and repli
 Export your personalized guidance as a .txt file.
 
 ## 🧠 Tech Stack
+
 Frontend/UI:	Streamlit + Custom CSS
+
 Backend (AI):	Google Generative AI (Gemini 2.5 Pro)
+
 Language:	Python 3.x
+
 Frameworks:	Streamlit
 
 API Integration by google-generativeai library
+
 Environment Variables	my_secrets.py for secure API key storage
 
 ## ⚙️ Installation & Setup
