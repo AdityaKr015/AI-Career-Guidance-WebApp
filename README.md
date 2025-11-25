@@ -3,7 +3,7 @@
 ## 🚀 Live Demo (Streamlit)
 
 Try the deployed app here:  
-[![Streamlit App](https://img.shields.io/badge/Live%20Demo-Streamlit-ff416c?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-career-guidance-byparadox.streamlit.app/)
+[![Streamlit App](https://img.shields.io/badge/Web%20App-Streamlit-ff416c?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-career-guidance-byparadox.streamlit.app/)
 
 
 - We the Team Paradox made this project for  3-day national-level hackathon organized by Gateway Education in collaboration with ImaginXP (CollegeDekho Group)
