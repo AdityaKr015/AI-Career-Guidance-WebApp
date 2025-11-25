@@ -1,13 +1,15 @@
-#The AI Career Guidance Web Application
+# The AI Career Guidance Web Application
 
 # Import important libraries
 import streamlit as st
 import google.generativeai as genai
-import my_secrets
 
-# Configure the Generative AI model
-genai.configure(api_key=my_secrets.API_KEY)
+# Configure the Generative AI model with Streamlit Secrets
+genai.configure(api_key=st.secrets["API_KEY"])
+
+# Initialize model
 model = genai.GenerativeModel("gemini-2.5-pro")
+
 
 # Streamlit App Configuration
 st.set_page_config(
