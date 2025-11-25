@@ -1,6 +1,7 @@
-We the Team Paradox made this project for  3-day national-level hackathon organized by Gateway Education in collaboration with ImaginXP (CollegeDekho Group)
+## 🎓 **AI Career Guidance Web App**
 
-## 🎓 AI Career Guidance Web App
+- We the Team Paradox made this project for  3-day national-level hackathon organized by Gateway Education in collaboration with ImaginXP (CollegeDekho Group)
+
 
 An AI powered career guidance webapp built with Streamlit and Google Gemini API, designed to help students discover their ideal career paths based on their skills, interests, and personality.
 
