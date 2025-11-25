@@ -393,3 +393,4 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # If it doesn't run and gives MainThread missing errors then, run this in terminal -> "streamlit run FILE_NAME.py"
+
