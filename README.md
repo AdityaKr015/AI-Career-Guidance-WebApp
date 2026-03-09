@@ -5,9 +5,7 @@
 Try the deployed app here:  
 [![Streamlit App](https://img.shields.io/badge/Web%20App-Streamlit-ff416c?style=for-the-badge&logo=streamlit&logoColor=white)](https://ai-career-guidance-byparadox.streamlit.app/)
 
-
 - We the Team Paradox made this project for  3-day national-level hackathon organized by Gateway Education in collaboration with ImaginXP (CollegeDekho Group)
-
 
 An AI powered career guidance webapp built with Streamlit and Google Gemini API, designed to help students discover their ideal career paths based on their skills, interests, and personality.
 
@@ -35,55 +33,53 @@ Export your personalized guidance as a .txt file.
 
 ## 🧠 Tech Stack
 
-Frontend/UI:	Streamlit + Custom CSS
-
-Backend (AI):	Google Generative AI (Gemini 2.5 Pro)
-
-Language:	Python 3.x
-
-Frameworks:	Streamlit
-
-API Integration by google-generativeai library
-
-Environment Variables	my_secrets.py for secure API key storage
+- `Frontend/UI`:	Streamlit + Custom CSS
+- `Backend (AI)`:	Google Generative AI (Gemini 2.5 Pro)
+- `Language`:	Python 3.x
+- `Frameworks`:	Streamlit
+- API Integration by google-generativeai library
+- Environment Variables	my_secrets.py for secure API key storage
 
 ## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone this repository
-
+```
 git clone https://github.com/yourusername/ai-career-guidance.git
 
 cd ai-career-guidance
+```
 
 ### 2️⃣ Create a virtual environment (recommended)
-
+```
 python -m venv venv
 
 venv\Scripts\activate   # On Windows
 
 source venv/bin/activate   # On Mac/Linux
-
+```
 
 ### 3️⃣ Install dependencies
-
+```
 pip install streamlit google-generativeai
+```
 
 ### 4️⃣ Create a my_secrets.py file in the same directory
-
+```
 my_secrets.py
 
 API_KEY = "YOUR_GEMINI_API_KEY_HERE"
+```
 
 💡 Get your API key from [Google AI Studio](https://aistudio.google.com/prompts/new_chat)
 
 ### 5️⃣ Run the app
-
+```
 streamlit run filename.py
+```
 
 ## 🖼️ Preview
 
 ### 💻 Main Interface
-
 
 A modern, gradient-themed dashboard with input form and AI result cards.
 
@@ -95,25 +91,21 @@ A modern, gradient-themed dashboard with input form and AI result cards.
 <img width="586" height="581" alt="image" src="https://github.com/user-attachments/assets/5295bf34-e823-4a9d-b35e-8d7cb69e82a8" />
 <img width="655" height="726" alt="image" src="https://github.com/user-attachments/assets/53e89ff4-4d66-4eb3-8b3f-83731bf6a6a3" />
 
-
-
 ## 🧩 How It Works
 
-User fills the form with details like subjects, skills, interests, and goals.
+- User fills the form with details like subjects, skills, interests, and goals.
+- App sends data to Gemini AI by prompt engineering.
+- Gemini processes the profile and returns:
 
-App sends data to Gemini AI by prompt engineering.
+### 🎯 Top 5 career paths
 
-Gemini processes the profile and returns:
+### 📚 Suggested stream
 
-🎯 Top 5 career paths
+### 🧰 Skills to develop
 
-📚 Suggested stream
+### 🌐 Future opportunities
 
-🧰 Skills to develop
-
-🌐 Future opportunities
-
-📈 Confidence percentage for each path
+### 📈 Confidence percentage for each path
 
 Result is displayed beautifully in-app and can be downloaded.
 
@@ -141,6 +133,5 @@ If you like this project:
 
 ⭐ Star the repo on GitHub
 
-🐛 Report bugs or suggest improvements via Issues
 
 💬 Share it with your college friends or hackathon teammates!
